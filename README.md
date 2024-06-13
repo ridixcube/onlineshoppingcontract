@@ -23,13 +23,10 @@ The `ShoppingToken` contract is a basic implementation of a token on the Ethereu
 
 ### Usage
 To use this contract:
-1. Deploy it on an Ethereum-compatible blockchain.
+1. Deploy it on an Ethereum-compatible blockchain or online on Remix IDE.
 2. Upon deployment, provide values for `_name`, `_ID`, and `_initialSupply` to initialize the token details.
 3. Use the `mint` function to add tokens to specific addresses.
 4. Use the `burn` function to remove tokens from specific addresses, ensuring the sender has enough tokens to burn.
-
-### SPDX License Identifier
-This contract uses the SPDX License Identifier `MIT`, meaning it is licensed under the MIT License.
 
 ### Solidity Version
 The contract is implemented in Solidity version `0.8.18`.
